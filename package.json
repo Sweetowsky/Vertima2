@@ -1,0 +1,13 @@
+{
+  "homepage": "https://sweetowsky.github.io/Vertima2",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+
+}
